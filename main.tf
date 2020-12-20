@@ -1,4 +1,4 @@
 resource "aws_instance" "foo" {
-  ami           = "ami-0ff8a91507f77f867"
+  ami           = "ami-1234xxxx1234yyyy" # invalid ami!
   instance_type = "t3.small"
 }
